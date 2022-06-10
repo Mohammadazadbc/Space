@@ -41,5 +41,6 @@ function showAdd(number){
             p1.classList.add('active')
             p2.classList.remove('active');
             p3.classList.remove('active');
+            p4.classList.remove('active');
     }
 }
