@@ -38,7 +38,7 @@ const CrewData =[
         id:1,
         jobTitle: "FLIGHT ENGINEER",
         crewName:"MRS. ANSARI",
-        crewDesc: "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-founded space tourist, the first self-founded woman to fly to this ISS, and the first Iranian space.",
+        crewDesc: "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-founded space tourist, the first self-founded woman to fly to this ISS, and the first Iranian space. ",
         img:"./assets/crew/image-anousheh-ansari.png",
     },
     {
