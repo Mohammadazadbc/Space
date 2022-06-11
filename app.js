@@ -1,42 +1,38 @@
-import {myfino} from "./Data.js"
-let p1 = document.getElementById('p1')
-let p2 = document.getElementById('p2')
-let p3 = document.getElementById('p3')
-let p4 = document.getElementById('p4')
+import {destinationData} from "./Data.js"
 
 let planetImg =document.getElementById('planetImg');
-planetImg.setAttribute('src',myfino[1].img)
+planetImg.setAttribute('src',destinationData[1].img)
 
 
 let planetTitle = document.getElementById('planetTitle');
-planetTitle.innerText = myfino[1].Name
+planetTitle.innerText = destinationData[1].Name
 
 let planteDesc = document.getElementById('planteDesc');
-planteDesc.innerText = myfino[1].desc
+planteDesc.innerText = destinationData[1].desc
 
 let avg_distanec = document.getElementById('avg_distanec');
-avg_distanec.innerText = myfino[1].destiance
+avg_distanec.innerText = destinationData[1].destiance
 
 let traveil_time = document.getElementById('traveil_time');
-traveil_time.innerText = myfino[1].travelTime
+traveil_time.innerText = destinationData[1].travelTime
 
 
 let liList = document.querySelectorAll('#liList')
 liList.forEach((val,i)=>{
     val.addEventListener('click',()=>{
         let planetImg =document.getElementById('planetImg');
-        planetImg.setAttribute('src',myfino[i].img)
+        planetImg.setAttribute('src',destinationData[i].img)
 
         let planetTitle = document.getElementById('planetTitle');
-        planetTitle.innerText = myfino[i].Name
+        planetTitle.innerText = destinationData[i].Name
 
         let planteDesc = document.getElementById('planteDesc');
-        planteDesc.innerText = myfino[i].desc
+        planteDesc.innerText = destinationData[i].desc
 
         let avg_distanec = document.getElementById('avg_distanec');
-        avg_distanec.innerText = myfino[i].destiance
+        avg_distanec.innerText = destinationData[i].destiance
         let traveil_time = document.getElementById('traveil_time');
-        traveil_time.innerText = myfino[i].travelTime        
+        traveil_time.innerText = destinationData[i].travelTime        
     })
 })
 let moon = document.querySelector('.moon')

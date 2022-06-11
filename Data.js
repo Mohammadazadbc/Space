@@ -1,4 +1,4 @@
- const  myfino = [
+ const  destinationData = [
     {
         id:1,
         Name: "MOON",
@@ -33,4 +33,35 @@
     },
 ]
 
-export { myfino };
+const CrewData =[
+    {
+        id:1,
+        jobTitle: "FLIGHT ENGINEER",
+        crewName:"MRS. ANSARI",
+        crewDesc: "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-founded space tourist, the first self-founded woman to fly to this ISS, and the first Iranian space.",
+        img:"./assets/crew/image-anousheh-ansari.png",
+    },
+    {
+        id:2,
+        jobTitle: "FLIGHT DEVELOPER",
+        crewName:"MR. AZAD",
+        crewDesc: "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-founded space tourist, the first self-founded woman to fly to this ISS, and the first Iranian space.",
+        img:"./assets/crew/profilepicp.png",
+    },
+    {
+        id:3,
+        jobTitle: "FLIGHT ENGINEER",
+        crewName:"MR. MARK",
+        crewDesc: "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-founded space tourist, the first self-founded woman to fly to this ISS, and the first Iranian space.",
+        img:"./assets/crew/image-victor-glover.webp",
+    },
+    {
+        id:4,
+        jobTitle: "FLIGHT ENGINEER",
+        crewName:"MR. VICTOR",
+        crewDesc: "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-founded space tourist, the first self-founded woman to fly to this ISS, and the first Iranian space.",
+        img:"./assets/crew/image-mark-shuttleworth.webp",
+    }
+]
+
+export { destinationData, CrewData };

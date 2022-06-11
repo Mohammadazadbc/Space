@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPACE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="crew.css">
+</head>
+<body >
+    <header>
+        <div class='left'>
+            <svg xmlns='http://www.w3.org/2000/svg' width='48' height='48'><g fill='none' fill-rule='evenodd'><circle cx='24' cy='24' r='24' fill='#FFF'/><path fill='#0B0D17' d='M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z'/></g></svg>
+        </div>
+        <div class='center'>
+            <div class='line'></div>
+        </div>
+        <div class='right'>
+            <div class='rbgColor'></div>
+            <div class='rbgItems'>
+                <p  id='p1' onclick='showAdd(1)'> <a href='index.html'>00 &nbsp; HOME</a></p>
+                <p   id='p2' onclick='showAdd(2)' > <a href='destination.html'>01 &nbsp; DESTINATION</a> </p>
+                <p class='active' id='p3' onclick='showAdd(3)' >02 &nbsp; CREW</p>
+                <p  id='p4' onclick='showAdd(4)' >03 &nbsp; TECHNOLOGY</p>
+            </div>
+        
+        </div>
+    </header>
+    <main class="crewMain">
+        <div class="crewLeft">
+            <div class="crewLeftWrapper">
+                <div class="crewInfo">
+                    <h2>02&nbsp; MEET YOUR CREW</h2>
+                    <h3 id="jobTitle"></h3>
+                    <h1 id="crewName" ></h1>
+                    <p id="crewDesc"></p>
+                </div>
+
+                <div class="points">
+                    <div id="point"  class="point point1 active"></div>
+                    <div id="point"  class="point  point2"></div>
+                    <div id="point"  class="point point3"></div>
+                    <div id="point"  class="point point4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="crewRight">
+            <div class="crewImg">
+                <img id="crewImg" src="" alt="">
+            </div>
+        </div>
+
+    </main>
+    <script type='module' src="crew.js"></script>
+</body>
+</html>
