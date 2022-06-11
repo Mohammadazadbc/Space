@@ -1,0 +1,47 @@
+.Dmain{
+    width: 100%;
+    height: 100vh;
+    background: url("./assets/destination/background-destination-desktop.jpg");
+    background-size: cover;
+   
+}
+
+.dMainLeft{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
+.dMainLeftWrapper{
+    height: 80%;
+}
+
+.dMainRight{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
+.dMainRightWrapper{
+    height: 65%;
+    width: 60%;
+}
+.dMainRightWrapper ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+.dMainRightWrapper ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+   
+}
+.dMainRightWrapper ul li:hover{
+    transform: scale(1.05);
+}

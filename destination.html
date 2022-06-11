@@ -1,32 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Space</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='destination.css'>
 </head>
-<body>
+<body class='dMainLeft'>
     <header>
-        <div class="left">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+        <div class='left'>
+            <svg xmlns='http://www.w3.org/2000/svg' width='48' height='48'><g fill='none' fill-rule='evenodd'><circle cx='24' cy='24' r='24' fill='#FFF'/><path fill='#0B0D17' d='M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z'/></g></svg>
         </div>
-        <div class="center">
-            <div class="line"></div>
+        <div class='center'>
+            <div class='line'></div>
         </div>
-        <div class="right">
-            <div class="rbgColor"></div>
-            <div class="rbgItems">
-                <p  id="p1" onclick="showAdd(1)"> <a href="index.html">00 &nbsp; HOME</a></p>
-                <p class="active"  id="p2" onclick="showAdd(2)" > <a href="destination.html">01 &nbsp; DESTINATION</a> </p>
-                <p  id="p3" onclick="showAdd(3)" >02 &nbsp; CREW</p>
-                <p  id="p4" onclick="showAdd(4)" >03 &nbsp; TECHNOLOGY</p>
+        <div class='right'>
+            <div class='rbgColor'></div>
+            <div class='rbgItems'>
+                <p  id='p1' onclick='showAdd(1)'> <a href='index.html'>00 &nbsp; HOME</a></p>
+                <p class='active'  id='p2' onclick='showAdd(2)' > <a href='destination.html'>01 &nbsp; DESTINATION</a> </p>
+                <p  id='p3' onclick='showAdd(3)' >02 &nbsp; CREW</p>
+                <p  id='p4' onclick='showAdd(4)' >03 &nbsp; TECHNOLOGY</p>
             </div>
         
         </div>
     </header>
+    <main class='Dmain'>
+        <div class='dMainLeft'>
+            <div class='dMainLeftWrapper'>
+                <h2>01 &nbsp; PICK YOUR DESTINATION</h2>
+                <div id='destinationImg'>
+                    <img id="planetImg" src="" alt="">
+                </div>
+            </div>
+        </div>
+        <div class='dMainRight'>
+            <div class='dMainRightWrapper'>
+                <ul >
+                    <li id="liList" >MOON</li>
+                    <li id="liList" >MARS</li>
+                    <li id="liList" >MEUROPA</li>
+                    <li id="liList" >TITAN</li>
+                </ul>
+                <div class='planetInfo'>
+                    <h1 id='planetTitle'></h1>
+                    <p id='planteDesc'></p>
+                    <hr>
+                    <div class='plantntExtraInfo'>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </main>
     
-    <script src="app.js"></script>
+    <script type='module' src='app.js'></script>
 </body>
 </html>

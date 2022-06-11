@@ -1,15 +1,28 @@
-let navBarP = document.querySelectorAll(".p");
+import {myfino} from "./Data.js"
 let p1 = document.getElementById('p1')
 let p2 = document.getElementById('p2')
 let p3 = document.getElementById('p3')
 let p4 = document.getElementById('p4')
+console.log(myfino);
 
-// for(let p of navBarP ){
-//     p.addEventListener('click',()=>{
-//         p.classList.toggle("active")
-//     })
+
+
+// const setPlanteInfo =()=>{
+//     let planetImg =document.getElementById('planetImg');
+//     planetImg.setAttribute('src',myfino[0].img)
 // }
 
+// setPlanteInfo()
+let planetImg =document.getElementById('planetImg');
+planetImg.setAttribute('src',myfino[1].img)
+
+let liList = document.querySelectorAll('#liList')
+liList.forEach((val,i)=>{
+    val.addEventListener('click',()=>{
+        let planetImg =document.getElementById('planetImg');
+        planetImg.setAttribute('src',myfino[i].img)
+    })
+})
 function showAdd(number){
     switch(number){
         case 1:
