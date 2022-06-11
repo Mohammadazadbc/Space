@@ -10,7 +10,7 @@
     {
         id:2,
         Name: "MARS",
-        desc:"The Moon is Earth's only natural satellite and the fifth largest moon in the solar system. The Moon's presence helps stabilize our planet's wobble and moderate our climate. The Moon's distance from Earth is about 240,000 miles (385,000km). The Moon has a very thin atmosphere called an exosphere.",
+        desc:"​Mars is the fourth planet from the Sun – a dusty, cold, desert world with a very thin atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes, and evidence that it was even more active in the past.",
         img:"./assets/destination/image-mars.webp",
         destiance:"210.28 million km",
         travelTime:" 687 days"
