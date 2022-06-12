@@ -137,6 +137,9 @@ main{
     justify-content: center;
     height: 100vh;
 }
+.mainRight a {
+    text-decoration: none;
+}
 .mainRwrapper{
     width: 150px;
     height: 150px;
