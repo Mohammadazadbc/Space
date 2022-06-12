@@ -26,7 +26,7 @@
 
 #destinationImg img{
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 .dMainRight{
@@ -51,7 +51,8 @@
 .dMainRightWrapper ul li{
     list-style: none;
     cursor: pointer;
-    height: 30px;
+    height: 40px;
+    font-size: 22px;
 }
 .dMainRightWrapper ul li.active{
     border-bottom: 2px solid white;
@@ -68,7 +69,7 @@
     letter-spacing: 1px;
     font-weight: 100;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
 }
 .plantntExtraInfo{
     line-height: 0;
@@ -77,4 +78,80 @@
     margin-top: 30px;
     font-weight: 100;
     font-size: 14px;
+}
+.travel p{
+    font-size: 15px;
+    font-weight: 100;
+}
+.distance p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+@media only screen and (max-width:1200px){
+    .dMainRightWrapper{
+        padding-right: 10%;
+    }
+    #destinationImg img{
+        height: 80%;
+        width: 90%;
+    }
+ 
+}
+@media only screen and (max-width:900px){
+    .Dmain{
+        flex-direction: column;
+            height: 120vh;
+            margin-bottom: 150px;
+           
+       
+    }
+    #destinationImg{
+        display: flex;
+        justify-content: center;
+    }
+    #destinationImg img{
+        height: 100%;
+        width: 75%;
+    }
+    .dMainRight{
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+    .dMainRightWrapper{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        padding-right: 0;
+    }
+    hr{
+        margin: 50px 0;
+    }
+}
+
+@media only screen and (max-width:650px){
+    #destinationImg img{
+        width: 70%;
+    }
+    .dMainRightWrapper{
+        width: 70%;
+      
+    }
+    .travel p{
+        font-size: 10px;
+        font-weight: 100;
+    }
+}
+@media only screen and (max-width:500px){
+    .dMainRightWrapper ul li{
+        font-size: 18px;
+    }
+    .planetInfo p{
+      
+        font-size: 18px;
+    }
+    .plantntExtraInfo{
+        font-size: 14px;
+    }
 }
