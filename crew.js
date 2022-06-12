@@ -3,6 +3,12 @@ let crewImg= document.getElementById('crewImg');
 let jobTitle = document.getElementById('jobTitle')
 let crewName = document.getElementById('crewName')
 let crewDesc = document.getElementById('crewDesc')
+const hamburgar = document.getElementById('hamburgar')
+const rightMenu = document.getElementById('rightMenu')
+
+hamburgar.addEventListener('click',()=>{
+    rightMenu.classList.toggle('show')
+})
 
 const point1 = document.querySelector('.point1')
 const point2 = document.querySelector('.point2')

@@ -1,8 +1,15 @@
 import {destinationData} from "./Data.js"
 
 let planetImg =document.getElementById('planetImg');
-planetImg.setAttribute('src',destinationData[1].img)
+const hamburgar = document.getElementById('hamburgar')
+const rightMenu = document.getElementById('rightMenu')
 
+hamburgar.addEventListener('click',()=>{
+    rightMenu.classList.toggle('show')
+})
+
+
+planetImg.setAttribute('src',destinationData[1].img)
 
 let planetTitle = document.getElementById('planetTitle');
 planetTitle.innerText = destinationData[1].Name
